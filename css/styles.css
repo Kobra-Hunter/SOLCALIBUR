@@ -11285,21 +11285,33 @@ body {
 .linkimage1, .linkimage2 , .linkimage3, .linkimage4, .linkimage5 {
   width: 45px;
   height: 45px;
+  
+  
 
 
   
   
 
 }  
+
+
+
 .tokenomicimage {
   height:40px;
   width:40px;
 }
+
+
 }
 .link1, .link2, .link3, .link4, .link5 {
   margin:10px;
+
+
+
   
 }
+
+
 
 
 
@@ -11319,26 +11331,37 @@ body {
     }
   }
 
-  #button36 {
+  
 
   
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 14px 24px;
-  border: none;
-  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
-  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
-  color: #fff;
-  }
 
 
+  
 
 
 .addy {
-  padding:3px;
+  font-size:11px;
+  color:#57D0E7;
+  padding-top:17.5px;
+ 
 }
+
+
+
+@media only screen and (max-width: 360px) {
+  .linkimage1, .linkimage2 , .linkimage3, .linkimage4, .linkimage5 {
+    width: 45px;
+    height: 45px;
+    
+    
+  
+    
+    
+  
+  } 
+  
+  .addy {
+    font-size:8px;
+  }
+}
+  
