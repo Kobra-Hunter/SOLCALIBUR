@@ -648,7 +648,7 @@ progress {
 }
 
 @media (min-width: 576px) {
-  .linkimage1, .linkimage2, .linkimage3, .linkimage4
+  .linkimage1, .linkimage2, .linkimage3, .linkimage4, .linkimage5
 
 {
   
@@ -11266,13 +11266,13 @@ body {
 }
 
 
-.link1, .link2, .link3, .link4 {
+.link1, .link2, .link3, .link4, .link5 {
   margin:20px;
   
 }
 
 
-.linkimage1, .linkimage2, .linkimage3, .linkimage4
+.linkimage1, .linkimage2, .linkimage3, .linkimage4, .linkimage5
 
 {
   
@@ -11281,8 +11281,8 @@ body {
  
 }
 
-@media only screen and (max-width: 500px) {
-.linkimage1, .linkimage2 , .linkimage3, .linkimage4 {
+@media only screen and (max-width: 520px) {
+.linkimage1, .linkimage2 , .linkimage3, .linkimage4, .linkimage5 {
   width: 45px;
   height: 45px;
 
@@ -11296,7 +11296,7 @@ body {
   width:40px;
 }
 }
-.link1, .link2, .link3, .link4 {
+.link1, .link2, .link3, .link4, .link5 {
   margin:10px;
   
 }
